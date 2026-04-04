@@ -1,9 +1,1 @@
 @import "tailwindcss";
-
-/* تم تصحيح الكلمة هنا لتعمل مع النسخة النهائية والمستقرة */
-@variant dark (&:is(.dark *));
-
-body { 
-  -webkit-tap-highlight-color: transparent; 
-  scroll-behavior: smooth; 
-}

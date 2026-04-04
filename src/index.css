@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-/* هذا السطر يلغي إجبار المتصفح ويجعل الوضع الليلي يدوياً عبر الزر فقط */
-@custom-variant dark (&:is(.dark *));
+/* تم تصحيح الكلمة هنا لتعمل مع النسخة النهائية والمستقرة */
+@variant dark (&:is(.dark *));
 
 body { 
   -webkit-tap-highlight-color: transparent; 
